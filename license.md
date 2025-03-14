@@ -1,4 +1,4 @@
-Copyright Laboratory of Biophysics © 2025
+Copyright Laboratory of Biophysics, J. Stefan Institute, Ljubljana © 2025
 
 LICENSE: CC BY-NC-SA
 

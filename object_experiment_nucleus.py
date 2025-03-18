@@ -2,7 +2,13 @@
 site (well) in custom-sized panoramas at each site. This version 
 is adjusted for nuclei detection and recording xy Stimulated 
 Emission Depletion high-resolution image at the positions of 
-selected objects."""
+selected objects.
+
+Authors: 
+Iztok Urbancic <iztok.urbancic at ijs.si>
+Petra Cotar 
+Bostjan Kokot <bostjan.kokot at ijs.si>
+"""
 
 import time
 import os

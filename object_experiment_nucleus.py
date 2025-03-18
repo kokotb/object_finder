@@ -1,18 +1,23 @@
-import numpy as np
-import cv2
-import skimage.morphology
-from scipy import ndimage
-import skimage.measure
+"""Code for automatic detection and analysis of objects at each 
+site (well) in custom-sized panoramas at each site. This version 
+is adjusted for nuclei detection and recording xy Stimulated 
+Emission Depletion high-resolution image at the positions of 
+selected objects."""
+
 import time
-import specpy as sp
-import matplotlib.pyplot as plt
-import matplotlib.patches as patches
-from PIL import Image
 import os
 
+import cv2
+import numpy as np
+import matplotlib.patches as patches
+import matplotlib.pyplot as plt
+from scipy import ndimage
+import skimage.measure
+import skimage.morphology
 from skimage.measure import label
 from skimage.measure import regionprops
-
+import specpy as sp
+from PIL import Image
 
 
 def get_initial_z(meas, config_num):

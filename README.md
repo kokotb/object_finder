@@ -13,4 +13,5 @@ The code enables the selection of the custom number of sites (wells) where custo
 ## Authors
 Iztok Urbancic\
 Petra Cotar\
+Luka Cehovin Zajc\
 Bostjan Kokot
